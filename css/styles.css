@@ -1,0 +1,162 @@
+div.pageContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+div.main {
+    flex: 1;
+    background-color: #fafafa;
+}
+
+div.main > .ui.container > div.ui.attached.segment {
+    padding: 0 17px;
+}
+
+#lighthouse-debug-info > p {
+    margin-bottom: 1px;
+}
+
+.lighthouse-avatar {
+    border-radius: .28571429rem;
+}
+
+.lighthouse-name {
+    margin-left: 10px;
+}
+
+.lighthouse-title {
+    margin-top: 0;
+}
+
+.user-link > img,
+.user-link > span {
+    vertical-align: middle;
+}
+
+.user-link > img {
+    height: 20px;
+    width: 20px;
+    border-radius: .28571429rem;
+    object-fit: cover;
+}
+
+.user-link {
+    padding-left: 3px;
+    padding-top: 5px;
+    display: inline-block;
+}
+
+.logo-color {
+    position: absolute;
+}
+
+.home-logo:hover > .logo-color {
+    opacity: 1;
+    transition: opacity 0.1s ease-in-out;
+}
+
+.home-logo > .logo-color {
+    opacity: 0;
+    transition: opacity 0.1s ease-in-out;
+}
+
+canvas.photo-subjects {
+    opacity: 1;
+    transition: opacity 0.3s;
+    pointer-events: none;
+}
+
+canvas.hide-subjects {
+    opacity: 0;
+    pointer-events: none;
+}
+
+/*#region Cards*/
+
+.card {
+    display: flex;
+    overflow-wrap: anywhere;
+    width: 100%;
+}
+
+.cardIcon {
+    margin-right: 10px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.cardStats {
+    height: fit-content;
+    vertical-align: center;
+    align-self: center
+}
+
+.cardStats > h1,
+.cardStats > h2 {
+    margin-bottom: 2px;
+}
+
+.cardButtons {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+}
+
+.cardButtons > a {
+    margin-bottom: 5px !important;
+    vertical-align: center;
+}
+
+.cardStatsUnderTitle {
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+div.cardStatsUnderTitle > i {
+    margin-right: 2px;
+}
+
+div.cardStatsUnderTitle > span {
+    margin-right: 5px;
+}
+
+/*#region Slot cards*/
+
+.slotCardIcon {
+    border-radius: 100%;
+}
+
+/*#endregion Slot cards*/
+
+/*#region User cards*/
+
+.userCardIcon {
+    border-radius: .28571429rem;
+}
+
+
+/*#endregion User cards*/
+
+/*#endregion Cards*/
+
+/*#region Comments*/
+
+.comment {
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+}
+
+.voting {
+    text-align: center;
+    display: inline-block;
+    float: left;
+    margin-right: 0.5em;
+}
+
+/*#endregion Comments*/
